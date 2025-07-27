@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# 📣 Vendor Voice – India’s Street Food Feedback & Grievance Portal
 
-## Project info
+## 🔍 Project Overview
 
-**URL**: https://lovable.dev/projects/bfdab8e9-f006-4506-bf36-4268468c9ac1
+**Vendor Voice** is an inclusive digital platform that brings together **street food consumers**, **vendors**, and **local authorities** to foster transparency, quality, and accountability in India’s vibrant street food culture.
 
-## How can I edit this code?
+Drawing inspiration from civic dashboards like *Rythu Bharosa* and *SLN Dashboard* used in Andhra Pradesh, this portal operates **area-wise**, allowing users to:
+- Report complaints related to **food hygiene**, **ingredient pricing**, or **vendor behavior**
+- Rate vendors based on cleanliness, taste, pricing, and service
+- Empower vendors with constructive feedback to improve
+- Enhance trust and transparency between vendors and consumers
 
-There are several ways of editing your application.
+Whether you're a hungry foodie in a busy city lane or a vendor striving to offer safer, fairer service — **Vendor Voice** is where your voice matters.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bfdab8e9-f006-4506-bf36-4268468c9ac1) and start prompting.
+## 💡 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+### 👥 For Consumers
+- Submit complaints or suggestions area-wise
+- Rate food vendors on hygiene, pricing, and experience
+- View vendor ratings before making food choices
 
-**Use your preferred IDE**
+### 🧑‍🍳 For Vendors
+- Access consumer feedback to improve service
+- Respond to complaints (optional)
+- Track average ratings and issue trends
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 📊 For Local Authorities
+- Monitor complaints and ratings by locality
+- Identify problem hotspots and take corrective action
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🏗️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Layer       | Technology                        |
+|-------------|-----------------------------------|
+| Frontend    | HTML, CSS, TypeScript, JavaScript  |
+| Backend     | Node.js with Express              |
+| Database    | Supbase                           |
+| Auth (optional) | JWT-based Authentication      |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🧰 Prerequisites
+- Node.js & npm installed
+- MongoDB running locally or hosted (MongoDB Atlas)
 
-**Edit a file directly in GitHub**
+### 📦 Installation Steps
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/bfdab8e9-f006-4506-bf36-4268468c9ac1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/VaibhavKrishna0607/vendor-voice.git
+   cd vendor-voice
